@@ -70,3 +70,55 @@ $$ \log_a mn = \log_a m + \log_a n $$
 $$ \log_a m^{p} = P\log_a m $$
 $$ \log_a m - \log_a n = \log_a  \frac{m}{n}$$
 $$ \log_a  \frac{m}{n} =\log_a m - \log_a n $$
+=======
+<!-- $theme: default -->
+
+# Part 50
+### 複素数とはどんな数？
+> 複素数 : a+bi (a,b 実数)
+
+### Point
+$$ i^2=-1 $$
+
+###### 練習問題
+#### 1
+$$ 3i \times 5i = 5 \times 3 \times i \times i = 15 \times i^2 = 15 \times -1 = -15 $$
+#### 2
+$$ 5 \div i = \frac{5}{i} = \frac{5}{i} \times \frac{i}{i} = \frac{5i}{i^2} = \frac{5i}{-1} = -5i $$
+---
+
+
+# Part 51
+### 複素数の相当どこが？
+### Point
+```
+a, b, c, dが実数のとき
+a+bi=c+di
+
+a+bi=c+diなら、
+a=c、b=d
+0=0+0i
+```
+
+###### 練習問題
+$$ 5-4i+12+7i=a+bi $$
+$$ 17+3i=a+bi $$
+$$ a=17, b=3 $$
+
+---
+
+$$ 3+8i-8-2i=(a-6)+(b+5)i $$
+$$ -5+6i=(a-6)+(b+5)i $$
+$$ a=1, b=1 $$
+
+---
+# Part 52
+### 三角関数 sin cos tanの求め方
+45° 45° 90°と30° 60° 90°の直角三角形を使う
+```
+sinθ: y座標/棒の長さ
+cosθ: x座標/棒の長さ
+tanθ: y座標/x座標
+
+30° 60° 90° (2 : 1 : √3)
+```
